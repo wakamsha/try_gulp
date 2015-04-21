@@ -1,0 +1,25 @@
+//
+// Button
+// --------------------------------------------------
+
+
+// Block
+// --------------------
+
+.button {
+  overflow: hidden;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #DDDDDD;
+  border-radius: .4em;
+  background: #EEEEEE;
+  text-shadow: 0 1px rgba(255,255,255,.5);
+
+  @include transition(.2s);
+  &:hover,
+  &:focus,
+  &:active {
+    box-shadow: 0 2px 1px rgba(0,0,0,.1);
+  }
+}
+

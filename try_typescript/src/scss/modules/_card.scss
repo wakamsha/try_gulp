@@ -1,0 +1,31 @@
+//
+// カード UI のためのコンテナ
+// ----------------------------------------
+
+
+// Variables
+// --------------------
+
+$card-bg-default: #fff;
+$card-padding-default: 25px;
+
+// Block
+// --------------------
+
+.card {
+  background-color: $card-bg-default;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+  box-shadow: $box-shadow-default;
+  padding: $card-padding-default;
+}
+
+// Modifier
+// --------------------
+
+.card {
+  &.is-large {
+    padding: 30px;
+  }
+}
