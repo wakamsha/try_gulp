@@ -1,0 +1,19 @@
+{
+  "name": "try_jade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wakamsha",
+  "license": "ISC",
+  "devDependencies": {
+    "coffee-script": "^1.9.2",
+    "gulp": "^3.8.11",
+    "gulp-jade": "^1.0.0",
+    "gulp-sass": "^1.3.3",
+    "jade": "^1.9.2",
+    "node-bourbon": "^4.2.1-beta1"
+  }
+}

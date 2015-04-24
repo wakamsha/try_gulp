@@ -1,0 +1,23 @@
+//
+// アプリ全体の骨組み
+// ----------------------------------------
+
+body {
+  background: #fafafa;
+}
+
+.text-primary {
+  color: $theme-priary;
+  font-weight: bold;
+}
+
+a {
+  color: blue;
+  background: transparent;
+  @include transition(.1s);
+  &:hover,
+  &:focus {
+    color: white;
+    background: blue;
+  }
+}

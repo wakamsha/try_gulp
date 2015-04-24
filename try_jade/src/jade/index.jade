@@ -1,0 +1,17 @@
+extends ./_layout.jade
+
+block title
+  title Article Title
+  - metas = {}
+  - metas.title = "Article Title"
+  - metas.description = "これは Jade のチュートリアルです"
+  include _inc_meta_facebook.jade
+  +inc_meta_facebook(metas)
+
+block heading
+  h1 My Article
+
+block append listitems
+  li list-item_1
+  li list-item_2
+  li list-item_3

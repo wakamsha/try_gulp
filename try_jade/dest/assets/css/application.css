@@ -1,0 +1,24 @@
+body {
+  background: #fafafa; }
+
+.text-primary {
+  color: #f00;
+  font-weight: bold; }
+
+a {
+  color: blue;
+  background: transparent;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+  transition: .1s; }
+  a:hover, a:focus {
+    color: white;
+    background: blue; }
+
+.card {
+  background-color: #fff;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  padding: 15px; }
