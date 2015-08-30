@@ -1,0 +1,24 @@
+{
+  "name": "try_aglio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wakamsha",
+  "license": "ISC",
+  "devDependencies": {
+    "api-mock": "^0.2.2",
+    "browser-sync": "^2.8.2",
+    "coffee-script": "^1.9.3",
+    "gulp": "^3.9.0",
+    "gulp-aglio": "0.0.9",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-watch": "^4.3.5",
+    "require-dir": "^0.3.0",
+    "rimraf": "^2.4.3",
+    "run-sequence": "^1.1.2"
+  }
+}
