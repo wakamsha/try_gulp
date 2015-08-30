@@ -1,8 +1,8 @@
 try_api
 =========
 
-Renders standard HTML documentation for REST APIs through the gulp build system.
-Creates a mock server based on an API Blueprint.
+* Renders standard HTML documentation for REST APIs through the gulp build system.
+* Creates a mock server based on an API Blueprint.
 
 ## Precondition
 
@@ -44,7 +44,7 @@ $ gulp mock
 
 #### Example
 
-http://localhost:5557
+[https://apiblueprint.org/](http://localhost:5557)
 
 
 ## Directory structure
