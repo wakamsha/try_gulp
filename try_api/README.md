@@ -1,7 +1,8 @@
 try_api
 =========
 
-For prototyping of Front-end.
+Renders standard HTML documentation for REST APIs through the gulp build system.
+Creates a mock server based on an API Blueprint.
 
 ## Precondition
 
