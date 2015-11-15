@@ -1,0 +1,22 @@
+{
+  "name": "try_webfont",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "coffee-script": "^1.9.3",
+    "gulp": "^3.9.0",
+    "gulp-consolidate": "^0.1.2",
+    "gulp-iconfont": "^4.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-svgmin": "^1.2.0",
+    "lodash": "^3.10.0",
+    "rimraf": "^2.4.2",
+    "run-sequence": "^1.1.2"
+  }
+}
