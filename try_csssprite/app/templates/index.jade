@@ -1,0 +1,29 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        title CSS Sprite DEMO
+        link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
+        link(rel="stylesheet" href="./assets/css/app.css")
+    body
+        nav.navbar.navbar-inverse.navbar-static-top
+            .container
+                .navbar-header
+                    a.navbar-brand(href="/")
+                        |CSS Sprite
+                        |&nbsp;DEMO
+        .container
+            .row
+                .col-sm-6.col-xs-offset-3
+                    ul.media-list
+                        each val in ['cat', 'crow', 'deer', 'penguin', 'rabbit', 'raccoon']
+                            li.media
+                                .media-left
+                                    a(href="#")
+                                        .media-object(class="media-object--#{val}")
+                                .media-body
+                                    h4.media-heading
+                                        |Sprite&nbsp;
+                                        span.text-primary=val.toUpperCase()
+                                    p Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                                    p Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.

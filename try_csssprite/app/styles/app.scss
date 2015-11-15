@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+// Libraries
+@import "bourbon";
+
+// Commons
+@import "commons/sprite";
+
+// Pages
+.media-object {
+    &--cat     { @include sprite($sprite-cat); }
+    &--crow    { @include sprite($sprite-crow); }
+    &--deer    { @include sprite($sprite-deer); }
+    &--penguin { @include sprite($sprite-penguin); }
+    &--rabbit  { @include sprite($sprite-rabbit); }
+    &--raccoon { @include sprite($sprite-raccoon); }
+}
