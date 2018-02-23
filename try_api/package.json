@@ -17,6 +17,8 @@
     "run-sequence": "^2.2.1"
   },
   "scripts": {
-    "doc": "aglio -i ./app/**/*.md -s"
+    "reset": "rm -rf public; mkdir public",
+    "doc": "aglio -i ./app/**/*.md -s",
+    "build": "aglio -i ./app/**/*.md -o ./public/index.html"
   }
 }
