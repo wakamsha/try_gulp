@@ -15,6 +15,9 @@ gulp.task 'sprite', ->
             retinaSrcFilter: config.path.src.sprite.retina
             retinaImgName: 'sprite@2x.png'
             retinaImgPath: "#{config.path.dest.sprite.images.path}/sprite@2x.png"
+            algorithm: 'diagonal'
+            algorithmOpts:
+                sort: false
 
     spriteData.img
         .pipe gulp.dest config.path.dest.sprite.images.file # imgName で指定したスプライト画像の保存先
